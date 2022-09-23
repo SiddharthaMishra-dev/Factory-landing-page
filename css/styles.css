@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  background-color: rgb(227, 238, 248);
+}
+h3 {
+  font-weight: 600;
+  margin: 2%;
+}
+.nav-container {
+  padding: 0.75% 10%;
+  background-color: #277bc0;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 4rem;
+  color: aliceblue;
+}
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.showcase {
+  padding: 7% 10%;
+}
+.showcase-description {
+  display: flex;
+  align-items: center;
+}
+.showcase-description p {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 600;
+  color: rgb(36, 84, 126);
+}
+.showcase-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.about-us {
+  background-color: #ffb200;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.about-description {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  color: rgb(90, 89, 89);
+}
+.about-img {
+  height: 16rem;
+}
+.product-section {
+  padding: 7% 10%;
+  text-align: center;
+}
+.product-card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
+}
+.icon {
+  margin-right: 5px;
+}
+.card-text {
+  padding: 5% 8%;
+}
+.bottom-panel {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffb200;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.footer-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #277bc0;
+  color: aliceblue;
+  padding: 7% 15%;
+}
+.cart-heading {
+  text-align: center;
+  margin-top: 2%;
+}
+#cartShowcase {
+  padding: 7% 15%;
+}
+.cart-content {
+  margin: 0;
+  padding: 1.5%;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.cart-image {
+  width: 100px;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-item-input {
+  width: 20px;
+}
+.showTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+.total-detail {
+  margin-top: 1.5rem;
+}
+.form {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.form-button {
+  text-decoration: none;
+  color: white;
+}
+.form-button:hover {
+  color: white;
+}
+.invoice {
+  display: flex;
+  padding: 2% 7%;
+}
+.detail-box {
+  max-width: 500px;
+  margin: 2rem;
+}
+.invoice-box {
+  background-color: rgb(177, 213, 245);
+}
+
+.icon-description {
+  display: inline;
+}
